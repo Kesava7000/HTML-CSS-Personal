@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <style>
+        .menu{
+   margin-top: 1px;
+   margin-left: 100px;
+
+   
+}
+a{
+   
+   font-weight: bolder;
+   padding: 10px 20px;
+   text-decoration: none;
+   text-align: center;
+   justify-content: center;
+   letter-spacing: 1px;
+   font-size:20px ;
+   color: darkkhaki;
+
+   
+   
+   
+}
+a:hover{
+
+   align-items: center;
+   border-radius: 50%;
+   color: black;
+   
+
+   
+}
+
+    </style>
+    <body>
+        <div class="menu" style="margin-top:20px;">
+            <a href="Home.html">Home</a>
+            <a href="Aboutme.html">About Me</a>
+            <a href="resume.html">Resume</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="location1.html">Map</a>
+            <a href="favorite.html">Favourite</a>
+            <a href="hobby.html">Hobbies</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        
+    </div>
+
+        <div class="container" style="margin-top:70px;">
+        <div class="row">
+            <div class="col-sm-6">
+        <form role="form" method="post" id="reused_form" style="width:500px;background-color: gray;padding: 6px 20px;">
+            <h1 class="heading">CONTACT ME </h1>
+            <div class="row">
+                <div class="col-sm-6 form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" pattern="[A-Za-z]{2,20}" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 form-group">
+                    <label for="message">Message:</label>
+                    <input type="text" style="height:200px ;" class="form-control" type="textarea" id="message" pattern="[A-Za-z]{4,100}" name="message" maxlength="6000"  rows="7">
+                </div>
+            </div>
+           
+
+
+
+            <div class="row">
+                <div class="col-sm-12 form-group">
+                    <button type="submit" class="btn btn-lg btn-default" >submit</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+        <div class="col-sm-6">
+        <form role="form" method="post" id="reused_form" style="background-color: gray;padding: 6px 20px;">
+            <h1 class="heading">Feedback</h1>
+            <div class="row">
+                <div class="col-sm-6 form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" pattern="[A-Za-z]{2,20}" class="form-control"  id="name" name="name" required>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 form-group">
+                <label for="name">Feedback:</label>
+                <input type="text" pattern="[A-Za-z]{4,200}" class="form-control" id="name" name="name" style="height: 200px;" maxlength="6000" type="textarea" required>
+            </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 form-group">
+            <button type="submit" class="btn btn-lg btn-default" >submit</button>
+        </div>
+    </div>
+
+        </form>
+    </div>
+</div>
+</div>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+/*Home*/
+#home{
+   
+    background-image:
+    linear-gradient(45deg,
+      rgba(10, 10, 10, 0.75),
+      rgba(10, 10, 10, 0.75)), url('images/kesavanc.jpeg');
+    
+    background-size: cover;
+    	
+    
+    
+}
+.menu{
+    margin-top: 40px;
+    margin-left: 200px;
+    
+}
+.about-img{
+  border-radius: 20px;
+}
+a{
+    
+    font-weight: bolder;
+    padding: 16px 20px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    font-size:20px ;
+    color: darkkhaki;
+    
+    
+    
+}
+a:hover{
+
+    align-items: center;
+    border-radius: 50%;
+    color: black;
+    text-decoration: none;
+    
+
+    
+}
+i{
+    padding: 20px;
+   
+}
+.social_icons{
+    margin-top: 150px;
+}
+.name {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 400px;
+    margin-top: -100px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  }
+  .name>span{
+    
+    font-size: 4rem;
+    color: rgb(199, 104, 104);
+  }
+  
+  .name1 {
+
+    position: absolute;
+    margin-left: 890px;
+    margin-top: -110px;
+    font-size: 40px;
+    color: rgb(146, 144, 144);
+    font-weight: bold;
+    font-style: italic;
+    font-family: Didot, serif;
+  }
+  .button{
+    margin-left:1000px ;
+ 
+  }
+/*About*/
+.about{
+    text-align: center;
+    margin-top: 200px;
+    font-weight: bold;
+    font-size: 70px;
+    color: rgb(199, 104, 104);
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+#about{
+  width: 100%;
+  height: 100%;
+}  

@@ -1,0 +1,45 @@
+<html>
+    
+
+    <head>
+        
+        <link rel="stylesheet" href="bootstrap-5.1.3-dist/bootstrap/css/bootstrap.min.css">
+        <script src="bootstrap-5.1.3-dist/bootstrap/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+        <style>
+            img{
+                width: 100%;
+                height: 530px;
+                margin-top: 20PX;
+            }
+            .head{
+                background-color: gray;
+                text-align: center;
+                padding: 3px 5px;
+            }
+        </style>
+    <body onload="myFunction1()">
+        <div class="container">
+            <div class="head">
+                <H1>Family</H1>
+            </div>
+          <img src="images/img16.jpg"  id="image">
+        </div>
+
+        </body>
+        <script>
+             var imglist1=["images/img15.jpg","images/img16.jpg","images/img17.jpg","images/img18.jpg","images/img19.jpg","images/img20.jpg"]
+             count1=0;
+		var b;
+		function myFunction1(){
+ 		document.getElementById("image").src=imglist1[count1];
+ 		count1++;
+		if(count1>=6)
+		{
+			 count1=0;
+		}
+		b=setTimeout(myFunction1,2000);
+		}
+        </script>
+</html>

@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap-5.1.3-dist/bootstrap/css/bootstrap.min.css">
+        <style>
+            body{
+                background-color:aquamarine;
+                padding-top: 20px;
+            }
+            p{
+                font-size: 20px;
+                color: royalblue;
+                font-weight: bold;
+
+            }
+            h1{
+                color: red;
+            }
+            img{
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+                border-bottom-left-radius:20px;
+                width:90%;
+                height:90%
+            }
+            button{
+                background-color: beige;
+                color: blue;
+                font-size: medium;
+                font-weight: bold;
+            }
+        </style>
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            
+
+            
+
+            
+
+            
+            $(document).ready(function(){
+                $("#two").click(function(){
+                    $(".second").fadeOut();
+                    $(".third").fadeIn("slow");
+                });
+
+            });
+            $(document).ready(function(){
+                $("#three").click(function(){
+                    $(".third").slideUp();
+                    $(".fourth").slideDown();
+                });
+
+            });
+            $(document).ready(function(){
+                $("#four").click(function(){
+                    $(".fourth").fadeOut();
+                    $(".fifth").fadeIn("slow");
+                });
+
+            });
+            $(document).ready(function(){
+                $("#five").click(function(){
+                    $(".fifth").slideUp();
+                    $(".sixth").slideDown();
+                });
+
+            });
+            $(document).ready(function(){
+                $("#six").click(function(){
+                    $(".sixth").fadeOut();
+                    $(".second").fadeIn("show");
+                });
+
+            });
+        </script>
+    </head>
+    <body>
+        <center>
+            <div class="container">
+            <div class="total">
+        
+
+              <div class="second" >
+        <img src="images/img22.jpg" width="600px" height="400px"><br><br>
+        <button type="button" class="btn btn-info" id="two">Next</button>
+    </div>
+
+        <div class="third" style="display:none">
+            <img src="images/img23.jpg" width="600px" height="400px"><br><br>
+            <button type="button" class="btn btn-info" id="three">Next</button>
+        </div>
+        
+        <div class="fourth" style="display:none">
+            <img src="images/img24.jpg" width="600px" height="400px"><br><br>
+            <button type="button" class="btn btn-info" id="four">Next</button>
+        </div>
+        
+        <div class="fifth" style="display:none">
+            <img src="images/img25.jpg" width="600px" height="400px"><br><br>
+            <button type="button" class="btn btn-info" id="five">Next</button>
+        </div>
+        
+        <div class="sixth" style="display:none">
+            <img src="images/img26.jpg" width="600px" height="400px"><br><br>
+            <button type="button" class="btn btn-info" id="six">Next</button>
+        </div>
+    </div>
+</div>
+
+    </center>
+    </body>
+</html>
